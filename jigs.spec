@@ -9,7 +9,6 @@ Source0:	http://www.gnustep.it/jigs/Download/%{name}-%{version}.tar.gz
 # Source0-md5:	76a55f10dfbadf5efce58867dfc7f3c7
 URL:		http://www.gnustep.it/jigs/index.html
 BuildRequires:	gnustep-base-devel
-BuildRequires:	gnustep-extensions-devel
 BuildRequires:	jdk
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -63,7 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc ChangeLog NEWS README TODO
 %{_gsdir}/System/Library/Documentation/Developer/JIGS
-%{_gsdir}/System/Library/Headers/gnustep/java
+%{_gsdir}/System/Library/Headers/%{libcombo}/gnustep/java
 %{_gsdir}/System/Library/Libraries/Java
 %attr(755,root,root) %{_gsdir}/System/Library/Libraries/%{gscpu}/%{gsos}/%{libcombo}/lib*.so*
 %{_gsdir}/System/Library/Makefiles/*.make
