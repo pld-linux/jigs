@@ -42,7 +42,7 @@ u¿ywania bibliotek GNUstepa z poziomu Javy.
 
 %{__make} \
 	OPTFLAG="%{rpmcflags}" \
-	JAVA_HOME=/usr/lib/java \
+	JAVA_HOME=%{_libdir}/java \
 	messages=yes
 
 %install
