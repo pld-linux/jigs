@@ -1,5 +1,5 @@
 Summary:	JIGS - Java Interface for GNUstep
-Summary(pl):	JIGS - Interfejs Javy do GNUstepa
+Summary(pl.UTF-8):   JIGS - Interfejs Javy do GNUstepa
 Name:		jigs
 Version:	1.5.5
 Release:	1
@@ -28,11 +28,11 @@ JIGS stands for Java Interface for GnuStep. It is a package allowing
 integration between Java and Objective-C. The main purpose of JIGS is
 to allow Java programmers to use the GNUstep libraries from Java.
 
-%description -l pl
-JIGS to skrót od Java Interface for GnuStep, czyli interfejsu Javy dla
-GnuStepa. Jest to pakiet pozwalaj±cy na integracjê miêdzy Jav± a
-Objective-C. G³ównym celem JIGS jest umo¿liwienie programistom Javy
-u¿ywania bibliotek GNUstepa z poziomu Javy.
+%description -l pl.UTF-8
+JIGS to skrÃ³t od Java Interface for GnuStep, czyli interfejsu Javy dla
+GnuStepa. Jest to pakiet pozwalajÄ…cy na integracjÄ™ miÄ™dzy JavÄ… a
+Objective-C. GÅ‚Ã³wnym celem JIGS jest umoÅ¼liwienie programistom Javy
+uÅ¼ywania bibliotek GNUstepa z poziomu Javy.
 
 %prep
 %setup -q
