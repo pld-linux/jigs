@@ -1,5 +1,5 @@
 Summary:	JIGS - Java Interface for GNUstep
-Summary(pl.UTF-8):   JIGS - Interfejs Javy do GNUstepa
+Summary(pl.UTF-8):	JIGS - Interfejs Javy do GNUstepa
 Name:		jigs
 Version:	1.5.5
 Release:	1
